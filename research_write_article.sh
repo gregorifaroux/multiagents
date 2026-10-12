@@ -28,4 +28,4 @@ for model in "${REQUIRED_MODELS[@]}"; do
   fi
 done
 
-python "${1:-research_write_article.py}"
+python research_write_article.py "$@"

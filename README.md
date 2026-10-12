@@ -28,10 +28,8 @@ The launcher will pull `llama3.1:8b` on first run (~5 GB).
 ## Run
 
 ```bash
-./research_write_article.sh
-# or with a custom topic
-./research_write_article.sh research_write_article.py
-python research_write_article.py "Autonomous vehicles"
+./research_write_article.sh                          # default topic
+./research_write_article.sh "Autonomous vehicles"    # custom topic
 ```
 
 Output lands in `articles/YYYYMMDD_article_<topic>.md`.
